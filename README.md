@@ -1,46 +1,11 @@
-# Getting Started with Create React App
+## Storybook Project
+> TypeScript와 Storybook을 사용하여 리액트 디자인 시스템을 구축
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 이슈
+> 컴포넌트를 설계할 때, 필요한게 생길 때마다 해당 케이스에 맞게 컴포넌트를 설계하다 보니, 비슷한 기능을 가진 컴포넌트들이 생겨났고, 결과적으로 재활용성이 떨어졌다. 개발은 컴포넌트 단위로 진행하지만 실제 개발환경은 항상 페이지 단위로 만들어지기 때문에 어쩌면 당연히 일어날 수도 있지만
+웹 개발에 있어서 재활용성이 떨어진다는 것은 생산성이 나빠지거나 추후에 리팩토링을 할 때, 과정이 커지고 복잡해질 가능성이 있다.
 
-## Available Scripts
+## Storybook 이란?
+> 스토리북(Storybook)은 UI 컴포넌트를 위한 유저 인터페이스 개발 환경 및 자유롭게 컴포넌트를 테스트할 수 있는 도구이다. 스토리북을 활용하면 개발자는 독립적인 환경에서 UI 컴포넌트가 어떻게 실제로 렌더링되는지 직접 시각적으로 테스트하면서 개발할 수 있고, 개발환경에서 컴포넌트들을 인터랙티브하게 보여줄 수 있다.
+> UI 컴포넌트를 독립적으로 개발함으로써, 컴포넌트 재사용성, 테스트, 개발 속도를 향상시킨다.
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
