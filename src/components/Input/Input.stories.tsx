@@ -17,3 +17,15 @@ Text.args = {
   placeholder: '아이디를 입력해주세요.',
   onChange: action('onChange 이벤트'),
 };
+
+export const Radio = Template.bind({});
+Radio.args = {
+  type: 'radio',
+  onChange: action('onChange 이벤트'),
+};
+
+export const Checkbox = Template.bind({});
+Checkbox.args = {
+  type: 'checkbox',
+  onChange: action('onChange 이벤트'),
+};
