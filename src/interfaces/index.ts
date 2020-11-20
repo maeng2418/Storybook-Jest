@@ -2,6 +2,7 @@ export interface IInputProps {
   children: React.ReactNode;
   type: 'checkbox' | 'text' | 'radio';
   placeholder?: string;
+  onChange?: (e: React.MouseEvent | React.KeyboardEvent<HTMLInputElement>) => void;
 }
 
 export interface IButtonProps {

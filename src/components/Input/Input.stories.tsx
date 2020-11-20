@@ -1,5 +1,6 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
+import { action } from '@storybook/addon-actions';
 import { Input } from './Input';
 import { IInputProps } from '../../interfaces';
 
@@ -14,4 +15,5 @@ export const Text = Template.bind({});
 Text.args = {
   type: 'text',
   placeholder: '아이디를 입력해주세요.',
+  onChange: action('onChange 이벤트'),
 };
